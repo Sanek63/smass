@@ -22,5 +22,5 @@ if __name__ == '__main__':
         if rectangle.in_area(x_data, y_data):
             rectangle_value += value
 
-    print(circle_value)
-    print(rectangle_value)
+    print('Circle value = {}'.format(circle_value))
+    print('Rectangle value = {}'.format(rectangle_value))

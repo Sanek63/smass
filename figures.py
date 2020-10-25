@@ -27,7 +27,7 @@ class Rectangle:
 
 
 class Circle:
-    def __init__(self, x_circle, y_circle, r_circle):
+    def __init__(self, x_circle=0, y_circle=0, r_circle=0):
         self.x_circle = x_circle
         self.y_circle = y_circle
         self.r_circle = r_circle
